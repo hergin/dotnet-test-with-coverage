@@ -18,7 +18,7 @@
 * Cd into it
   * `cd dotnet-test-with-coverage`
 
-* Make the shell scripts executable.
+* Make the shell scripts executable (if the following lines don't show them as executables).
   * `chmod +x *.sh`
 
 * Run tests and check results by pattern matching
