@@ -2,7 +2,7 @@
 
 * Install Docker
 
-* Run docker container (make sure docker container is running)
+* Run a linux container (make sure docker is running and engine is started)
   * `docker run -it ubuntu`
 
 * Install dotnet
