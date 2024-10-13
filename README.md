@@ -34,6 +34,19 @@
   * `./test-coverage.sh`
   * Should see `Coverage reached!`
 
+## Using Dockerfile
+
+* Install Docker
+
+* Build the container (make sure docker is running and engine is started)
+  * `docker build -t dotnet-test-ubuntu .`
+
+* Run the container
+  * `docker run -it --name=dotnet-test-ubuntu dotnet-test-ubuntu /bin/bash`
+
+* Continue above with cd into the folder (already cloned)
+  * `cd dotnet-test-with-coverage`
+
 ## Other commands
 
 * Add coverlet to the test project
